@@ -41,9 +41,9 @@ export default function Home() {
             upon skills that I already have.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 pt-10 text-gray-600">
-            <a href='https://github.com/IvoryCoding' target='_blank'><AiFillGithub/></a>
-            <a href='https://www.linkedin.com/in/emma-gillespie-6209a5228/' target='_blank'><AiFillLinkedin/></a>
-            <a href='https://www.youtube.com/channel/UC5ErFYlTfJZC3Dnd8bqMFUA' target='_blank'><AiFillYoutube/></a>
+            <a href='https://github.com/IvoryCoding' target='_blank ' rel="noreferrer"><AiFillGithub/></a>
+            <a href='https://www.linkedin.com/in/emma-gillespie-6209a5228/' target='_blank' rel="noreferrer"><AiFillLinkedin/></a>
+            <a href='https://www.youtube.com/channel/UC5ErFYlTfJZC3Dnd8bqMFUA' target='_blank' rel="noreferrer"><AiFillYoutube/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-yellow-700 to-yellow-50 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={ivory} layout='fill' objectFit='cover' alt='emma gillespie'/>
@@ -76,34 +76,34 @@ export default function Home() {
             </div>
             <div className="flex flex-row justify-center gap-5">
               <div className="text-center shadow-lg p-10 rounded-m my-10 w-25 h-25 basis-1/3">
-                <Image src={mysql} width={100} height={100}/>
+                <Image src={mysql} width={100} height={100} alt='mysql'/>
                 <h3 className="text-l font-medium pt-8 pb-2">MySQL</h3>
                 <h4 className="py-2 text-yellow-700">8/10</h4>
               </div>
               <div className="text-center shadow-lg p-10 rounded-m my-10 w-25 h-25 basis-1/3">
-                <Image src={virutal} width={100} height={100}/>
+                <Image src={virutal} width={100} height={100} alt='virtual machines'/>
                 <h3 className="text-l font-medium pt-8 pb-2">Virtual Machines</h3>
                 <h4 className="py-2 text-yellow-700">9/10</h4>
               </div>
               <div className="text-center shadow-lg p-10 rounded-m my-10 w-25 h-25 basis-1/3">
-                <Image src={server} width={100} height={100}/>
+                <Image src={server} width={100} height={100} alt='server management'/>
                 <h3 className="text-l font-medium pt-8 pb-2">Server Management</h3>
                 <h4 className="py-2 text-yellow-700">8/10</h4>
               </div>
             </div>
             <div className="flex flex-row justify-center gap-5">
               <div className="text-center shadow-lg p-10 rounded-m my-10 w-25 h-25 basis-1/3">
-                <Image src={teamwork} width={100} height={100}/>
+                <Image src={teamwork} width={100} height={100} alt='teamwork'/>
                 <h3 className="text-l font-medium pt-8 pb-2">Teamwork</h3>
                 <h4 className="py-2 text-yellow-700">8/10</h4>
               </div>
               <div className="text-center shadow-lg p-10 rounded-m my-10 w-25 h-25 basis-1/3">
-                <Image src={leadership} width={100} height={100}/>
+                <Image src={leadership} width={100} height={100} alt='leadership'/>
                 <h3 className="text-l font-medium pt-8 pb-2">Leadership</h3>
                 <h4 className="py-2 text-yellow-700">9/10</h4>
               </div>
               <div className="text-center shadow-lg p-10 rounded-m my-10 w-25 h-25 basis-1/3">
-                <Image src={resourceful} width={100} height={100}/>
+                <Image src={resourceful} width={100} height={100} alt='resourceful'/>
                 <h3 className="text-l font-medium pt-8 pb-2">Resourceful</h3>
                 <h4 className="py-2 text-yellow-700">8/10</h4>
               </div>
@@ -122,9 +122,9 @@ export default function Home() {
           </div>
           <div className="py-5 md:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 lg:basis-1/3 flex-1">
-              <a href='https://github.com/IvoryCoding/De-Ducklet' target='_blank'><Image src={deducklet} width={100} height={100} alt='deducklet'/></a>
+              <a href='https://github.com/IvoryCoding/De-Ducklet' target='_blank' rel="noreferrer"><Image src={deducklet} width={100} height={100} alt='deducklet'/></a>
               <h3 className="text-l font-medium pt-8 pb-2">De-Ducklet</h3>
-              <p className="py-2"><span className='text-yellow-600'><a href='https://github.com/IvoryCoding/De-Ducklet' target='_blank'>De-Ducklet </a></span>
+              <p className="py-2"><span className='text-yellow-600'><a href='https://github.com/IvoryCoding/De-Ducklet' target='_blank' rel="noreferrer">De-Ducklet </a></span>
                is a application I had created in visual basic. In total this project was 1000+
                lines of code. It is an app that gives tips on fixing bugs and where you can post questions and other can
                answer your questions similar to StackOverflow.</p>
@@ -134,9 +134,9 @@ export default function Home() {
               <p className="text-gray-800 py-1">UI work flow</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 lg:basis-1/3 flex-1">
-              <a href='https://github.com/IvoryCoding/52_cards_project' target='_blank'><Image src={cards} width={100} height={100} alt='52 cards'/></a>
+              <a href='https://github.com/IvoryCoding/52_cards_project' target='_blank' rel="noreferrer"><Image src={cards} width={100} height={100} alt='52 cards'/></a>
               <h3 className="text-l font-medium pt-8 pb-2">52 Cards Project</h3>
-              <p className="py-2"><span className="text-yellow-600"><a href='https://github.com/IvoryCoding/52_cards_project' target='_blank'>52 Cards </a></span>
+              <p className="py-2"><span className="text-yellow-600"><a href='https://github.com/IvoryCoding/52_cards_project' target='_blank' rel="noreferrer">52 Cards </a></span>
                is a project with various programming projects and CTF/Cyber security projects.
                These projects will be created in many different languages to push my skill level higher.</p>
               <h4 className="py-2 text-yellow-700">Skills learned:</h4>
@@ -145,9 +145,9 @@ export default function Home() {
               <p className="text-gray-800 py-1">Diverse with approaches</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 lg:basis-1/3 flex-1">
-              <a href='https://github.com/IvoryCoding/uht-rustgui' target='_blank'><Image src={uht} width={100} height={100} alt='uht'/></a>
+              <a href='https://github.com/IvoryCoding/uht-rustgui' target='_blank' rel="noreferrer"><Image src={uht} width={100} height={100} alt='uht'/></a>
               <h3 className="text-l font-medium pt-8 pb-2">Ultimate Hacking Tool</h3>
-              <p className="py-2"><span className='text-yellow-600'><a href='https://github.com/IvoryCoding/uht-rustgui' target='_blank'>Ultimate Hacking Tool</a></span> is a tool that will run various pentesting scripts
+              <p className="py-2"><span className='text-yellow-600'><a href='https://github.com/IvoryCoding/uht-rustgui' target='_blank' rel="noreferrer">Ultimate Hacking Tool</a></span> is a tool that will run various pentesting scripts
                that have been developed by myself and help create a report. This project is to help me learn the programming language
                Rust.</p>
               <h4 className="py-2 text-yellow-700">Skills learned:</h4>
