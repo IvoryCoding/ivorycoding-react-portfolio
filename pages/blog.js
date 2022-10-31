@@ -9,7 +9,7 @@ export default function Blog() {
             <meta name="description" content="My personal blog" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className="bg-gradient-to-b from-white to-gray-200 px-10 md:px-20 lg:px-40">
+        <main className="bg-gradient-to-b from-white to-gray-200 px-10 md:px-20 lg:px-40 min-h-screen">
             {/* Section for nav */}
             <section className="">
                 <nav className="py-10 mb-12 flex justify-between">
