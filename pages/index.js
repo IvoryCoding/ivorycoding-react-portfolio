@@ -29,7 +29,7 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">aka IvoryCoding</h1>
             <ul className="flex items-center">
-              <li><a href="https://ivorycoding-react-portfolio.vercel.app/blog" className="px-4 py-2 ml-8">My Blog</a></li>
+              <li><a href="https://ivorycoding-react-portfolio.vercel.app/blog" className="px-4 py-2 ml-8">blog</a></li>
             </ul>
           </nav>
 
