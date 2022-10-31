@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import {AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from 'next/image';
 import ivory from '../public/possible_image.jpg';
@@ -29,7 +29,7 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">aka IvoryCoding</h1>
             <ul className="flex items-center">
-              {/*<li><a href="#" className="bg-gradient-to-r from-yellow-600 to-yellow-900 text-white px-4 py-2 rounded-mb ml-8">My Blog</a></li>*/}
+              <li><a href="https://ivorycoding-react-portfolio.vercel.app/blog" className="px-4 py-2 ml-8">My Blog</a></li>
             </ul>
           </nav>
 
